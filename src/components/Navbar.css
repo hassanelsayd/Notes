@@ -1,0 +1,54 @@
+.navbar {
+  background-color: var(--main-color);
+  height: 60px;
+  width: 100%;
+}
+
+.navbar .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .brand-name {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  animation: 0.3s linear 0s 1 alternate right-to-left;
+}
+.navbar .brand-name span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  margin: 6px 0 0 1px;
+}
+
+.navbar .options button {
+  background-color: transparent;
+  border: 2px solid var(--text-white);
+  color: var(--text-white);
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.navbar .options {
+  animation: 0.3s linear 0s 1 alternate left-to-right;
+  gap: 15px;
+  display: flex;
+}
+
+.navbar .options button:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.navbar .options button:focus {
+  outline: none;
+}

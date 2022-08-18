@@ -1,0 +1,39 @@
+.create-note-card {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+
+  height: 350px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  max-width: 320px;
+}
+
+.create-note-card .card-header {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.create-note-card .card-icon i {
+  font-size: 55px;
+  color: #fff;
+}
+
+.create-note-card button {
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.create-note-card button:hover {
+  background-color: #fff;
+  color: #8e2de2;
+}

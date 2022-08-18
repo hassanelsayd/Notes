@@ -1,0 +1,8 @@
+.notes-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 380px));
+  /* gap: 10px; */
+  grid-auto-rows: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
